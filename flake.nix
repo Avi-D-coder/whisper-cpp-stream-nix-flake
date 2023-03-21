@@ -40,8 +40,8 @@
         };
 
         whisper-stream = pkgs.stdenv.mkDerivation {
-          pname = "whisper-cpp";
-          version = "0.1.0";
+          pname = "whisper-cpp-stream";
+          version = "v1.2.2";
           src = whisperSrc;
 
           buildInputs = with pkgs; [ SDL2 pkg-config ];
